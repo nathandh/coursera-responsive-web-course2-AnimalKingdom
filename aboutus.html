@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- /* @nathandh Feb 2016 initial */ -->
+	<!-- This is a first example of using a template -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>N's Animal Kingdom v: 0.1.0 - About</title>
+		
+		<!-- include our libraries and css files -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/handlebars-v3.0.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="assignment.css" rel="stylesheet">
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- put your HTML here -->
+		<!-- 1st Create a top Navbar element for BASIC page navigation -->
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container-fluid">	<!--Span entire width of viewport -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+						data-target="#animal_nav" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">N's Animal Kingdom</a>
+				</div>
+				<!-- Our menu link items -->
+				<div class="collapse navbar-collapse" id="animal_nav">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home </a></li>
+						<li class="active"><a href="aboutus.html">About <span class="sr-only">(current)</span></a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><p class="navbar-text"><em>Explore the Wild, Wild, World of Animals!</em></p></li>
+					</ul>
+				</div><!--/.navbar-collapse -->
+			</div> <!--/.container-fluid -->
+		</nav>
+		
+		<!-- Main Bootstrap Container -->
+		<div class="container">
+			<div class="jumbotron">
+				<h1>About Us</h1>
+				<p>This is a data-driven website example for University of London's Responsive Web Design MOOC class 
+					offered on Coursera. The course is the 2nd in the required sequence for achieving the Responsive 
+					Website Development and Design specialization.</p>
+				<p>Requirements for this assignment iteration include: 
+					<ol>
+						<li>Create at least 1 HTML file that contains the structure of our site, including templates 
+							designed to display that data.</li>
+						<li>Create a JavaScript file that maps our data onto the templates and provides page interactivity.</li>
+						<li>Create a CSS file that styles our page, including optional use of the Bootstrap library.</li>
+						<li>The overall layout should clearly display data in an understandable way, and ensure that 
+							the end-user always knows where they are, where they can go, and what they can do.</li>
+					</ol>
+				</p>
+			</div><!--/.jumbotron -->
+		</div><!--/.container -->
+	</body>
+</html>

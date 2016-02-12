@@ -1,0 +1,104 @@
+/* @nathandh Feb 2016 initial */
+.navbar-inverse {
+    background:#ff8000;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	border-bottom-color:#994d00;
+	border-radius:0 !important;
+}
+.navbar-inverse .navbar-brand {
+	color:gainsboro;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color:ghostwhite;
+    background:#cc5200;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color:ghostwhite;
+    background:#cc5200;
+}
+.navbar-inverse .navbar-toggle {
+	border-color:whitesmoke;
+}
+.navbar-inverse .navbar-toggle .collapsed {
+	border-color:#cc5200;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color:darkorange;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:gainsboro;
+}
+.navbar-inverse .navbar-text {
+	color:ghostwhite;
+	text-align:center;
+}
+.jumbotron {
+	background:cornsilk;
+}
+.jumbotron h1, .jumbotron p {
+	margin-left:5px;
+	margin-right:5px;
+}
+/*Animal Photos Specific*/
+.animal_photos {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.animal_photos img {
+	width:250px;
+	height:250px;
+	border:1px solid black;
+	padding:2px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.animal_details{
+	width:100%;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+/* Devices 425px and up) */
+@media (min-width: 425px) { 
+	/*Animal Photos Specific*/
+	.animal_photos img {
+		width:100%;
+	}
+}
+/*Main ALL Gallery Photos*/
+.gallery_photos{
+	width:100%;
+	margin-bottom:15px;
+}
+.gallery_photos img{
+	width:200px;
+	height:125px;
+	padding:1px;
+	border:1px solid black;
+}
+.gallery_photos img:hover{
+	transform: scale(0.9, 0.9);
+}
+/*Modal IMG*/
+#imgModalBody img{
+	padding:2px;
+	border:1px solid black;
+	width:350px;
+	height:350px;
+}
+/* Devices 410px and down) */
+@media (max-width: 410px) { 
+	/*Modal IMG Specific for very small screens*/
+	#imgModalBody img{
+		padding:2px;
+		border:1px solid black;
+		width:100%;
+		height:100%;
+	}
+}
